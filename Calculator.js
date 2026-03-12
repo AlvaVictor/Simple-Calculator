@@ -1,9 +1,10 @@
-let calculator = (num1, num2) => {
-  let sum = num1 + num2;
-  if (sum > 10) {
-   return 'YES';
-} else {
-    return 'NO';
+const calculator = (a, b) => {
+  if (a + b > 10) {
+    return "Yes";
+  } else {
+    return "No";
+  };
+
 };
-};
-console.log(calculator (5, 6));
+
+console.log(calculator(5, 1));
